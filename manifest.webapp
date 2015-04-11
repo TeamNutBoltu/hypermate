@@ -1,0 +1,29 @@
+{
+  "name": "hypermate",
+  "description": "While the visible night sky appears calm and unchanging, the universe as observed at higher energies (X-rays and gamma-rays) is seething with activity. Many sources are ‘transient’, i.e., quiet for long periods and then becoming active quickly for weeks or months. The high-energy astronomical community is providing information on such sources freely on public web pages, but no tool exists to quickly give an overview of the currently most interesting behaviour in the many sources observed this way. The idea is not to do a deep analysis of the data provided by the community, but to concentrate on a visually pleasing and mobile phone friendly front-end which highlights the ‘most active’ sources in an easy to grasp fashion.",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/icon-512.png",
+    "128": "/img/icon-128.png",
+    "90":  "/img/icon-90.png",
+    "64":  "/img/icon-64.png",
+    "48":  "/img/icon-48.png",
+    "32":  "/img/icon-32.png",
+    "16":  "/img/icon-16.png"
+  },
+  "developer": {
+    "name": "NutBoltu",
+    "url": "http://www.nutboltu.org"
+  },
+  "default_locale": "en",
+  "type": "web",
+  "permissions": {
+  "contacts": {
+    "description": "Required for autocompletion in the share screen",
+    "access": "readcreate"
+    },
+  "alarms": {
+    "description": "Required to schedule notifications"
+  }
+}
+}
